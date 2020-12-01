@@ -23,11 +23,12 @@
 }
 
 .choices {
-  max-width: 400px;
-  max-height: 200px;
+  max-width: 405px;
+  max-height: 203px;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 1rem;
+  justify-content: center;
+  margin: 1rem auto;
 }
 
 .choice {
@@ -37,4 +38,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+.choice:hover {
+  border: 1px solid yellow;
 }

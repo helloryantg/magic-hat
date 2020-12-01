@@ -1,7 +1,7 @@
 import "./App.css"
 import { useState, useEffect } from "react"
 
-const partyCountChoices = [2, 3, 4, 5, 6, 7, 8]
+const partyCountChoices = [2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 function App() {
   const [partyCount, setPartyCount] = useState(2)
